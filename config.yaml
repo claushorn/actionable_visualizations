@@ -1,0 +1,9 @@
+# This is a comment
+dataset:
+  name: Diabetics
+  file: /Users/ch2437/code/NeuralConfidanceScore/diabetes+130-us+hospitals+for+years+1999-2008/diabetic_data.csv
+  version: 1.0
+preprocess:
+  output: cleand_diabetics.csv
+semantic_groups:
+  groups: ["demographic","physiometric","administrative","clinical","medication","diabetismanagement"] 
