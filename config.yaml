@@ -1,0 +1,20 @@
+# This is a comment
+dataset:
+  name: Diabetics
+  file: /Users/ch2437/code/NeuralConfidanceScore/diabetes+130-us+hospitals+for+years+1999-2008/diabetic_data.csv
+  version: 1.0
+algorithms:
+#  names: [SWEDISH, SemanticGroupNet] 
+  names: [SWEDISH] 
+preprocess:
+  output: cleand_diabetics.pkl
+semantic_groups:
+
+neural_net_training:
+  n_epochs: 1  #200
+  embedding_dim: 2
+  batch_size: 4
+make_predictions:
+
+visualization: 
+
